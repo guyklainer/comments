@@ -1,0 +1,9 @@
+<div class="comments-list">
+	<input type="text" ng-model="search" placeholder="Filter">
+
+	<ul>
+		<li ng-repeat="comment in data | filter:search">
+			<comment data="comment"></comment>
+		</li>
+	</ul>
+</div>

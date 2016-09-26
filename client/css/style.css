@@ -1,0 +1,54 @@
+.comments {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+}
+
+.comments-form, .comments-list {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+}
+
+.comments-form {
+    background: #e0dede;
+    padding-bottom: 30px;
+}
+
+.comments-form input, .comments-form textarea, .comments-list input{
+    width: 90%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.comments-form input, .comments-list input  {
+    padding: 15px 5px;
+}
+
+.comments-form button {
+    margin-right: 5%;
+}
+
+.comments-list ul {
+    list-style-type: none;
+    margin: 10px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+}
+
+.comments-list .comment img {
+    float: left;
+    border-radius: 5px;
+}
+
+.comments-list .comment .text {
+    margin-left: 2%;
+    display: inline-block;
+}
+
+.comments-list .comment .text .bold {
+    font-weight: bold;
+}
